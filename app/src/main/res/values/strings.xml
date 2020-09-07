@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">Snapmall</string>
+    <string name="app_name_ar" translatable="false">سناب مول</string>
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes...</string>
+    <string name="ar_terms">هذا التطبيق مرد خدمة لعرض الإعلانات فقط، ولا نقدم أي ضمان لأي إعلان موجود في التطبيق. الإعلانات الممنوعة: - إعلان ضعيف الجودة. -الإعلان الغير مكتمل التفاصيل. - ضعف تواصل المعلن مع الأعضاء. -إضافة صورة ليست لنفس السلعة. - إعلان يحتوي على إشارة لأي أمر عنصري. - إعلان يحتوي على معلومات غير صحيحة. - إعلانات التبرع وطلب المساعدة. - الإعلانات عن مساهمات وإشتراكات. -نشر إعلانات مع اسعار غير منطقية. - نشر إعلانات تحتوي على خيار الدفع المسبق أو تحويل للبنوك. - مشر إعلانات احتيال وإعلانات وهمية. -نشر إعلانات ذات محتوى عام أو داعئي عام. - الحسابات الشخصية. -اختيار الفئة الغير صحيحة للإعلان. *السلع الممنوعة: - المشروبات الكحولية والخمور ومنتجات التبغ والمخدرات والمؤثرات العقلية والمسكرات والادوية والمسكنات أو حتى وضع روابط سواء كانت مباشرة أم غير مباشرة لمواد ومنتجات أو خدمات يحظر القانون تداولها. - الأدوية والمنتجات الطبية. - الأسلحة بما فيها الصواعق والمسدساتو الرشاشات واسلحة الحماية الشخصية ومستلزماتها. - التقسيط والمنتجات البنكية. - المنتجات الجنسية. - الأسهم وإدارة المحافظ والعملات وتسويقها. - أجهزة الليزر وأجهزة التجسس والتنصت. - الخدمات اللإلكترونية. - الأعضاء البشرية الطبيعية أو الصناعية بما في ذلك الدم وسوائل الجسم ايضاً. - المواد الدينية بما في ذلك الكتب والتحف… إلخ. أو اي معلومات او وصف لأي من هذا المواد يمس المشاعر الدينية لأي شخص أو مجموعة. - الآثار أو الكنوز الممنوع تداولها تحت أي قانون معمول به. - الألعاب النارية والمتفجرات والعبوات الناسفة وما إلي ذلك من مواد مشتعلة وخطيرة. - تذاكر اليانصيب ومراهنات سباق الخيل وماكينات القمار. - المعدات الخاصة بالشرطة والجيش من شارات وزي رسمي ومعاطف وأسلحة وما إلى ذلك من مواد يمنع تداولها. - خدمات ومخططات التسويق الهرمي للإحتيال على المستخدمين. -المشاريع الوهمية مثل: الثراء السريع والعمل من المنزل. - الحيوانات المهددة بالإنقراض أو الحيوانات الشرسة. - السلع التي فيها إعتداء على حقوق المكلية الفكرية.</string>
+    <string name="en_terms">This application is a service for displaying ads only, and we do not provide any guarantee for any ads that are in the application. Blocked ads: - poor quality ads. Incomplete advertising details. Weak advertiser communication with members. - Add a picture that is not the same item. - An advertisement containing a reference to any racist order. - An advertisement containing incorrect information. - Donate and ask for help. Announcements of contributions and subscriptions. - Post ads with irrational prices. - Post ads containing a prepaid or bank transfer option. - Fraud ads and fake ads. - Post advertisements with general or public propaganda content. Personal Accounts. - Choose the incorrect category for the ad. Prohibited goods: - Alcoholic beverages, wines, tobacco products, drugs, psychotropic substances, intoxicants, drugs, analgesics, or even links, whether direct or indirect, to materials, products, or services prohibited by law. Medicines and medical products. Weapons, including lightning strikes, pistols, machine guns, personal protection weapons and accessories. Installment and banking products. Sexual Products. Shares, portfolio management, and currency marketing. - Laser and spy devices and eavesdropping. - Electronic services. Natural or artificial human organs, including blood and body fluids as well. Religious articles, including books, antiques, etc. Or any information or description of any of these materials that affects the religious feelings of any person or group. - Antiquities or treasures forbidden to be traded under any applicable law. Fireworks, explosives, explosive devices, and other dangerous and burning materials. Lottery tickets, sweepstakes and slot machines. - Equipment for the police and army, including badges, uniforms, coats, weapons and other non-circulating materials. Hierarchical marketing services and schemes to defraud users. Fictional projects such as: Get Rich Quick and Work From Home. Threatened animals or ferocious animals. Goods in violation of intellectual property rights.</string>
+    <string-array name="country_data">
+        <item>السعودية</item>
+        <item>الرياض</item>
+        <item>مكة</item>
+        <item>الأردن</item>
+        <item>البحرين</item>
+        <item>جدة</item>
+        <item>فلسطين</item>
+        <item>قطر</item>
+        <item>الطائف</item>
+        <item>لبنان</item>
+        <item>الكويت</item>
+        <item>مصر</item>
+        <item>السودان</item>
+        <item>سلطنة عمان</item>
+        <item>العراق</item>
+        <item>الإمارات</item>
+    </string-array>
+</resources>

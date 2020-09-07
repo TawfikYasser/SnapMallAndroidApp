@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132036062048",
+    "firebase_url": "https://snapmall-3a96b.firebaseio.com",
+    "project_id": "snapmall-3a96b",
+    "storage_bucket": "snapmall-3a96b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132036062048:android:06611a60a0f6c016ac4c05",
+        "android_client_info": {
+          "package_name": "com.snapmall.snapmall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132036062048-5f73009cubghglb12r5aserpp4igtj97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snapmall.snapmall",
+            "certificate_hash": "6a98911317b73e0e0d25be5a26c9b71b7f2090f5"
+          }
+        },
+        {
+          "client_id": "132036062048-dm5jf3rqgr9v6biohau13q9pu0bd7vra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvbm0lhIvrOhIwANuHNuI-cf-ieBiFIF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132036062048-dm5jf3rqgr9v6biohau13q9pu0bd7vra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

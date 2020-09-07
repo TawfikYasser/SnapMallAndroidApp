@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:id="@+id/main_ref"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="@color/White"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/toolbar_layout"
+                android:tooltipText="Toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:elevation="2dp"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:clickable="true"
+                    android:background="@drawable/draw_ripple"
+                    android:id="@+id/search_icon"
+                    android:tooltipText="Search For Offer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/ic_search_black_24dp"
+                    android:layout_centerVertical="true"/>
+
+
+                <TextView
+                    android:id="@+id/country_text"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/noto_reg"
+                    android:textSize="20sp"
+                    android:tooltipText="Filter By City"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Country"
+                    />
+                <ImageView
+                    android:clickable="true"
+                    android:background="@drawable/draw_ripple"
+                    android:id="@+id/add_offer_icon"
+                    android:layout_width="wrap_content"
+                    android:tooltipText="Add Offer"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_add_black_24dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentTop="true"
+                        android:id="@+id/rec"
+                        android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:elevation="20dp"
+                android:tooltipText="Favourite Offers"
+                app:borderWidth="0dp"
+                android:backgroundTint="@color/red"
+                android:layout_alignParentRight="true"
+                style="@style/Widget.MaterialComponents.FloatingActionButton"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:tint="@color/White"
+                app:srcCompat="@drawable/ic_favorite_black_24dp"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

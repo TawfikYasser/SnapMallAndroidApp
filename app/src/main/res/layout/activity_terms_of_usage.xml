@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TermsOfUsage">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="@color/White"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/toolbar_layout_settings"
+                android:tooltipText="Toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:elevation="2dp"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:clickable="true"
+                    android:background="@drawable/draw_ripple"
+                    android:id="@+id/back_terms"
+                    android:tooltipText="Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/back"
+                    android:layout_centerVertical="true"/>
+
+
+                <TextView
+
+                    android:id="@+id/terms_txt"
+                    android:fontFamily="@font/noto_reg"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:tooltipText="Terms of Usage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Terms Of Usage"
+                    />
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/ar_terms"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/noto_reg"
+                android:padding="16dp"
+                android:text="@string/ar_terms"
+                android:textAlignment="gravity"
+                android:layout_height="0dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:visibility="invisible"
+                android:fontFamily="@font/noto_reg"
+                android:id="@+id/en_terms"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="left"
+                android:padding="16dp"
+                android:text="@string/en_terms"
+                android:textAlignment="gravity"
+                android:layout_height="wrap_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
